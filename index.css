@@ -1,0 +1,142 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.input-label-con {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.err {
+    color: red;
+    font-size: 12px;
+}
+
+.message {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn{
+    background-color: rgb(64, 64, 153);
+    color: white;
+    padding: 8px;
+    border-width: 0px;
+    width: 80px;
+    border-radius: 500px;
+}
+.btn:hover{
+    background-color: rgb(3, 18, 18);
+}
+
+
+.tglBtn{
+    background-color:transparent;
+    color: rgb(19, 2, 2);
+    width: 45px;
+    border-width: 0px;
+}
+
+
+/* Mobile View  */
+  
+@media screen and (max-width: 767px) {
+    .container {
+        width: 50%;
+    }
+    
+    .input-label-con{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pwdlabel-errmsg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    label{
+        width: 100%;
+
+    }
+    .inp-fie{
+        width: 100%;
+    }
+
+    form{
+        text-align: center;
+    }
+
+  }
+
+
+  
+  /* Tablets and Laptops View and big screens */
+  
+  @media screen and (min-width: 768px) and (max-width: 1393px) {
+    .container{
+        width: 90%;
+    }
+    .input-label-con{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .label{
+        width: 40%;
+    }
+    .inp-fie{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+        width: 40%;
+    }
+    .pwdlabel-errmsg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    form{
+        text-align: center;
+    }
+  }
+  
+
+  
+  

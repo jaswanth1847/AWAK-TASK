@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="loginForm">
+            <h2>Login</h2>
+            <div class="input-label-con">
+                <label for="username">Username/Email:</label>
+                <div class="inp-fie">
+                    <input type="text" id="username" name="username" placeholder="Enter Your Email">
+                    <span class="err" id="usernameError"></span>
+                </div>  
+            </div>
+
+            <div class="input-label-con">
+                <label for="password">Password:</label>
+                <div class="inp-fie">
+                    <div class="pwdlabel-errmsg">
+                        <input type="password" id="password" name="password" placeholder="Enter Your Password" >
+                        <button class="tglBtn" type="button" id="togglePassword">Show</button>
+                    </div>
+                    <span class="err" id="passwordError"></span>
+                </div>
+            </div>
+            <button class="btn" type="submit">Login</button>
+           
+            <div class="message" id="message"></div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
