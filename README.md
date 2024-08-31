@@ -1,7 +1,7 @@
 #LOG IN FORM
 
 
-####Adding Code to Files
+##Adding Code to Files
 index.html:
          Add the basic HTML structure for your login page. This file includes the form elements and links to the CSS and 
         JavaScript files.
